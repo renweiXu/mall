@@ -26,21 +26,29 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!--服务发现-->
         <dependency>
             <groupId>com.alibaba.boot</groupId>
             <artifactId>nacos-discovery-spring-boot-starter</artifactId>
             <version>${nacos-config-spring-boot.version}</version>
         </dependency>
 
+        <!--配置管理-->
         <dependency>
             <groupId>com.alibaba.boot</groupId>
             <artifactId>nacos-config-spring-boot-starter</artifactId>
-            <version>0.2.1</version>
+            <version>${nacos-config-spring-boot.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.10</version>
+        </dependency>
+
+        <dependency>
+            <artifactId>mall-core</artifactId>
+            <groupId>cn.mall</groupId>
+            <version>${mall.core.version}</version>
         </dependency>
 
     </dependencies>
